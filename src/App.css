@@ -174,4 +174,51 @@ a{
   height: 100%;
   overflow: hidden;
 }
-  
+.to h2{
+  font-family: Matura MT Script Capitals;
+  font-size: 24px;
+  color: black;
+}
+.to1{
+  position:absolute;
+  top:270%;
+  left: 77%;
+}
+.to2{
+  top:270%;
+  left: 0%;
+}
+.to22{
+  position:absolute;
+  width: 47%;
+  top:270%;
+  left: 0%;
+}
+.to3{
+  top:270%;
+  left: 0%;
+}
+.to33{
+  position:absolute;
+  width: 54%;
+  top:335%;
+  left: 45%;
+}
+.to4{
+  top:270%;
+  left: 0%;
+}
+.to44{
+  position:absolute;
+  width: 58%;
+  top:440%;
+  left: 0%;
+}
+.t2{
+  color: #000;
+  position:absolute;
+  top:562%;
+  left: 55%;
+  font-size: 36px;
+  font-family: Matura MT Script Capitals;
+}
