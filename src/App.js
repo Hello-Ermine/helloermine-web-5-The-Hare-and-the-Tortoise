@@ -18,7 +18,10 @@ import pt1 from './gu/pt1.png';
 import pt2 from './gu/pt2.png';
 import pt3 from './gu/pt3.png';
 import back from './gu/Background1.png';
+import Header from './Header'
 import styled from 'styled-components';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import { Navbar, Container } from 'react-bootstrap';
 const Photo = styled.img` 
   width: 100%;
   z-index: -9999999999;
@@ -73,6 +76,7 @@ function App() {
   return (
     <div className="App">
       <Photo src={back} />
+      <Header></Header>
       <div className="g">
         <div id="elementToAnimate" className="tu3">
           <img id="p1" src={tu3} alt="" />
