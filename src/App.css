@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.g{
+  height: 366px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
+.g img{
+  width: 144px;
+  height: 144px;
 }
