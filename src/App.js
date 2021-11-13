@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Intro from './Intro';
 import g1 from './gu/Ellipse79.png';
 import g2 from './gu/Ellipse80.png';
 import g3 from './gu/Ellipse81.png';
@@ -14,10 +15,12 @@ const Photo =styled.div`
   background-size: contain;
   background-repeat: no-repeat;
 `
+
 function App() {
   return (
     <div className="App">
       {/* <div style={{backgroundImage:`url(${back})`,height:'800vh',backgroundSize:'contain'},backgroundRepeat:'no-repeat';}></div> */}
+        <Intro/>
         <Photo/>
         <div className="g"> 
         <img src={g1} alt=""/>

@@ -1,0 +1,74 @@
+.Intro {
+    position: absolute;
+}
+
+.header {
+    height: 500px;
+}
+
+.header > .sun {
+    width: 20vw;
+    position: absolute;
+    top: 195%;
+}
+
+.header > .cloud {
+    width: 100vw;
+    position: absolute;
+    top: 55em;
+}
+
+.rabbit {
+    position: absolute;
+    width: 20vw;
+    left: 150px;
+}
+
+.turtle {
+    position: absolute;
+    width: 20vw;
+    right: 150px;
+}
+
+.Turtle, .Rabbit {
+    width: 100vw;
+    position: absolute;
+    top: 290%;
+}
+
+.script {
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.script img {
+    width: 100%;
+    z-index: -100;
+    position: absolute;
+}
+
+/*.Turtle > .script {
+    position: absolute;
+    right: 35%;
+    bottom: 10%;
+}
+
+.Rabbit > .script {
+    position: absolute;
+    left: 30%;
+    bottom: 10%;
+}*/
+
+.turtleframe {
+    position: absolute;
+    right: -40%;
+    top: -22%;
+}
+
+.rabbitframe {
+    position: absolute;
+    width: 100%;
+    left: 30%;
+    bottom: 10%;
+}
