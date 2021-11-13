@@ -44,9 +44,9 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin-top: -26vw; 
+  margin-top: -25vw; 
   position: relative;
-
+  background-color: #D44B2A;
 }
 .g .yu1 img:hover{
   width: 100%;
@@ -56,7 +56,9 @@
   opacity: 1;     
   transform: scale(1.10);
 }
-
+.yu1{
+  z-index: 9999;
+}
 h1{
   color: white;
   font-family: IrisUPC;
@@ -114,7 +116,7 @@ h2{
 .tur{
   position: absolute;
   left: 0%;
-  top: 56.7%;
+  top: 57%;
   transform: translate(0,0);
   width: 211px;
   height: 215px;
@@ -122,10 +124,10 @@ h2{
 .tur2{
   position: absolute;
   left: 90%;
-  top: 60%;
+  top: 74%;
   transform:rotate(-29.72deg);
-  width: 140px;
-  height: 150px;
+  width: 210px;
+  height: 164px;
 }
 #p1{
   width: 125px;
@@ -154,7 +156,7 @@ a{
   height: 240px;
   position: relative;
   left: 60%;
-  margin-top: -50%;
+  margin-top: -5%;
 }
 .kou{
   position: absolute;
@@ -163,11 +165,13 @@ a{
   top: 0;
 }
 .t1{
-  position: absolute;
-  /* margin-top: -450%; */
-  left: 0;
-  top: 0;
-
+  margin-top: 2%;
+  text-align: left;
 }
-
+.hun{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
   
