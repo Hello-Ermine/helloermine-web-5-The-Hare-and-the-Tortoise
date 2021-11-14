@@ -10,8 +10,7 @@ import back from './gu/background.png';
 import styled from 'styled-components';
 import indexstyle from './indexnew.css';
 import { Navbar , Container } from 'react-bootstrap';
-// import { Component,Fragment } from 'react';
-// import Particles from 'react-particles-js';
+
 
 const Photo =styled.div` 
   background-image:url(${back});
