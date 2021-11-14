@@ -76,7 +76,35 @@
     left: 42em;
 }
 
-h2 {
+.boxrabbit img:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.boxturtle img:hover {
+    -moz-box-shadow: 0 0 10px #FED8A4;
+    -webkit-box-shadow: 0 0 10px #FED8A4;
+    box-shadow: 0 0 10px #FED8A4;
+}
+
+.sun {
+    width: 100%;
+    position: absolute;
+    margin-left: 30%;
+    /*top: 190%;
+    left: 100%;*/
+    
+}
+
+.sunimg {
+    width: 120%;
+    position: absolute;
+    top: 100%;
+
+}
+
+.introducerabbit, .introduceturtle {
     font-family: 'Cabin';
     font-size: 15px;
     text-align: left;
@@ -84,14 +112,15 @@ h2 {
     margin-left: 10px;
 }
 
-.sun {
-    position: absolute;
-    top: 170%;
-    left: 5em;
-    
-}
-
-.sun img {
-    width: 20%;
-
-}
+/*.box
+    {
+      width: 150px;
+      border: 1px solid #9325BC;
+      padding: 10px;
+    }
+    .box:hover
+    {
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+    }*/

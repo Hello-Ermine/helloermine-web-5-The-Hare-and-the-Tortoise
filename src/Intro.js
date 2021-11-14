@@ -50,7 +50,10 @@ img {
       <div className="Intro">
         {/* <div style={{backgroundImage:`url(${back})`,height:'800vh',backgroundSize:'contain'},backgroundRepeat:'no-repeat';}></div> */}
           <div className="header">
-            <img id="elementToAnimatesp" className="sun" src={sun} alt="sun"/>
+            {/*<img id="elementToAnimatesp" className="sun" src={sun} alt="sun"/>*/}
+              <div className="sun" data-aos="fade-down-left">
+                  <img className="sunimg" src={sun} alt="sun"/>
+              </div>
             <img className="cloud" src={cloud} alt="cloud"/>
           </div>
           <div className="Rabbit">
@@ -60,13 +63,10 @@ img {
               <img className="turtle" src={turtle} alt="turtle"/>
           </div>
           <div className="boxrabbit">
-              <Frame><img src={rabbitframe}/><h2>สวัสดีเราคือกระต่าย เราวิ่งเร็วมาก<br/>นิสัยของเราคือชอบดูถูกคนอื่น<br/>ยินดีที่ได้รู้จักทุกคนนะ</h2></Frame>  
+              <Frame><img src={rabbitframe}/><h2 className="introducerabbit">สวัสดีเราคือกระต่าย เราวิ่งเร็วมาก<br/>นิสัยของเราคือชอบดูถูกคนอื่น<br/>ยินดีที่ได้รู้จักทุกคนนะ</h2></Frame>  
           </div> 
           <div className="boxturtle">
-              <Frame1><img src={turtleframe}/><h2>เราเต่าเอง เราเดินช้าแต่<br/>เรามีความพยายามนะ<br/>สู้ไปด้วยกันนะ แง่มๆ</h2></Frame1>  
-          </div>
-          <div className="sun" data-aos="fade-down-left">
-              <img className="sun" src={sun} alt="sun"/>
+              <Frame1><img src={turtleframe}/><h2 className="introduceturtle">เราเต่าเอง เราเดินช้าแต่<br/>เรามีความพยายามนะ<br/>สู้ไปด้วยกันนะ แง่มๆ</h2></Frame1>  
           </div>    
       </div>
     );
