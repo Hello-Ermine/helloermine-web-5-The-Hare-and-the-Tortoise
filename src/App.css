@@ -67,14 +67,14 @@
 }
 h1{
   color: white;
-  font-family: IrisUPC;
+  font-family: 'Mitr', sans-serif;
   font-size: 30px;
 }
 .g h2{
   color: white;
-  font-family: IrisUPC;
-  font-size: 30px;
-  margin-top: -16%;
+  font-family: 'Mitr', sans-serif;
+  font-size:  1.0416666666666667vw;
+  margin-top: 0.5vw;
   margin-left: 18%;
 }
 #targetElement{

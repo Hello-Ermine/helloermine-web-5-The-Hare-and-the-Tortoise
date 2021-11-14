@@ -40,15 +40,20 @@
     transform: scale(1, 1);
     }
 }
+a:hover{
+    color:#ACE5CC;
+    transition-duration: .3s;
+    
+}
 #nav:hover{
     color:#ACE5CC;
     transition-duration: .3s;
+    
 }
-#nav:active{
-    color: #EEC02C;
-}
+
 #navbar{
     background-color: #483434;
+    
 }
 #p3{
     position: absolute;
@@ -58,7 +63,12 @@
 }
 a{
     text-decoration: none;
-    color: #EEC02C !important;
+    color: #EEC02C ;
+    
+}
+#nav{
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #EEC02C;
 }
 .hun1{
 position: absolute;
@@ -72,40 +82,5 @@ position: absolute;
     height: 100%;
     
 }
-/* #stry{
-    position: absolute;
-    top: 40px;
-    left: 16px;
-    margin-left: 1300px;
-}
-#credit{
-    margin-left: 1700px;
-    position: absolute;
-    top: 40px;
-    left: 16px;
-}
-#charactor{
-    margin-left: 350px;
-    position: absolute;
-    top: 40px;
-    left: 16px;
-}
-#main{
-    margin-left: 10px;
-    position: absolute;
-    top: 40px;
-    left: 16px;
-}
-a{
-    font-size: 36px;
-    font-family:'Robato';
-    text-decoration: none;
-    color: white;   
-}
-a:hover{
-    color: #ACE5CC;
-    transition-duration:.2s;
-}
-a:active{
-    color: #EEC02C;
-  } */ 
+
+
