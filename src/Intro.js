@@ -56,7 +56,7 @@ function Intro() {
       <div className="Rabbit">
         <img onClick={() => setPopupRabbit(value=>!value)} className="rabbit" src={rabbit} alt="rabbit" />
         {popupRabbit && (
-          <div className="boxrabbit">
+          <div className="boxrabbit" id="charactors">
           <Frame><img src={rabbitframe} /><h2>สวัสดีเราคือกระต่าย เราวิ่งเร็วมาก<br />นิสัยของเราคือชอบดูถูกคนอื่น<br />ยินดีที่ได้รู้จักทุกคนนะ</h2></Frame>
         </div>
         )}
