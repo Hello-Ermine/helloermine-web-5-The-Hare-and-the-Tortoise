@@ -5,6 +5,10 @@ import p4 from './p/rabbit_hello.png';
 import p5 from './p/turtle_hello.png';
 import p6 from './p/กระต่ายกับเต่าฟ้อนต์.png';
 import p7 from './p/opacity_navbar.png';
+import p8 from './p/layer1.png';
+import p9 from './p/layer2.png';
+import p10 from './p/layer3.png';
+import p11 from './p/layer4.png';
 import back from './gu/background.png';
 import styled from 'styled-components';
 import indexstyle from './indexnew.css';
@@ -20,13 +24,22 @@ const Photo =styled.div`
 function Header() {
     return (
       <div className="App">
-        <img src={p3} alt="logo_navbar" id="p3"/>
+        <img src={p3} alt="logo_navbar" id="landing"/>
+        <img src={p8} id="p8"/>
+        <img src={p10} id="p10"/>
+        <img src={p9} id="p9"/>
+        <img src={p11} id="p11"/>
+
+        <img src={p8} id="l8"/>
+        <img src={p10} id="l10"/>
+        <img src={p9} id="l9"/>
+        <img src={p11} id="l11"/>
         <Navbar expand="lg" variant="light" fixed="top" id="navbar">
         <Container>
-            <Navbar.Brand href="#" id="nav">หน้าหลัก</Navbar.Brand>
-            <Navbar.Brand href="#" id="nav">ตัวละคร</Navbar.Brand>
-            <Navbar.Brand href="#" id="nav">เนื้อเรื่อง</Navbar.Brand>
-            <Navbar.Brand href="#" id="nav">ผู้จัดทำ</Navbar.Brand>
+            <Navbar.Brand href="#landing" id="nav">หน้าหลัก</Navbar.Brand>
+            <Navbar.Brand href="#charactors" id="nav">ตัวละคร</Navbar.Brand>
+            <Navbar.Brand href="#story" id="nav">เนื้อเรื่อง</Navbar.Brand>
+            <Navbar.Brand href="#devteam" id="nav">ผู้จัดทำ</Navbar.Brand>
         </Container>
         </Navbar>
         
@@ -38,12 +51,6 @@ function Header() {
         </div>
     </div>
 
-    // { <div id="navbar">
-
-    //     
-
-    // </div> }
-    //   </div>
     );
     
   }

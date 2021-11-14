@@ -102,14 +102,14 @@ function App() {
           <img className="tur" src={tur} alt="" />
           <img className="tur2" src={tur2} alt="" />
         </div>
-        <div className="yu1"><a href="https://www.instagram.com/evekmp_/" target="_blank"><img src={g1} alt="" /><h1>EVE </h1><h2>Web Design</h2></a></div>
-        <div className="yu1"><a href="https://www.instagram.com/kenwrp/" target="_blank"><img src={g2}  alt="" /><h1>KEN </h1><h2>Web Design</h2></a></div>
+        <div className="yu1"><a href="https://www.instagram.com/evekmp_/" target="_blank" id="devteam"><img src={g1} alt="" /><h1>EVE </h1><h2>Web Design</h2></a></div>
+        <div className="yu1"><a href="https://www.instagram.com/kenwrp/" target="_blank"><img src={g2} alt="" /><h1>KEN </h1><h2>Web Design</h2></a></div>
         <div className="yu1"><a href="https://www.instagram.com/warittinan_t/" target="_blank"><img src={g3} alt="" /><h1>TLE </h1><h2>Front End</h2></a></div>
         <div className="yu1"><a href="https://www.instagram.com/onyourp__parn/" target="_blank"><img src={g5} alt="" /><h1>SAIPARN </h1><h2>Front End</h2></a></div>
         <div className="yu1"><a href="https://www.instagram.com/nattaphattxz/" target="_blank"><img src={g4} alt="" /><h1>P </h1><h2>Front End</h2></a></div>
         <div className="yu1"><a href="https://www.instagram.com/ppiinntch/" target="_blank"><img src={g6} alt="" /><h1>PIN </h1><h2>Infrastructure</h2></a></div>
       </div>
-        <Hot data-aos="fade-right"><img className="to1" src={kou} alt="" /><h2 className="t1">กระต่ายตัวหนึ่งมั่นใจในความเร็วของตัวมัน<br />มันท้าทายสัตว์ทุกตัวให้แข่งกับมัน<br />ไม่มีสัตว์ตัวใดรับคำท้า<br />เต่าตัวหนึ่งนึกสนุกจึงรับคำท้าเจ้ากระต่าย</h2></Hot>
+        <Hot data-aos="fade-right"><img className="to1" src={kou} alt="" id="story" /><h2 className="t1">กระต่ายตัวหนึ่งมั่นใจในความเร็วของตัวมัน<br />มันท้าทายสัตว์ทุกตัวให้แข่งกับมัน<br />ไม่มีสัตว์ตัวใดรับคำท้า<br />เต่าตัวหนึ่งนึกสนุกจึงรับคำท้าเจ้ากระต่าย</h2></Hot>
         <Hot2 data-aos="fade-left"><img className="to2" src={kou1} alt="" /><h2 className="t1">เมื่อการแข่งเริ่มต้น กระต่ายน้อยวิ่ง<br />นำเต่าไปสุดลูกหูลูกตา</h2></Hot2>
         <Hot3 data-aos="fade-right"><img className="to3" src={kou} alt="" /><h2 className="t1">มันไม่เห็นเจ้าเต่าจึงงีบหลับลง<br />จนเต่าน้อยคลานมาถึงตัวกระต่าย<br />กระต่ายก็ไม่รู้ตัว เมื่อกระต่ายตื่นขึ้นมา<br />เจ้าเต่าก็เข้าเส้นชัยเสียแล้ว</h2></Hot3>
       <div className="to10">
