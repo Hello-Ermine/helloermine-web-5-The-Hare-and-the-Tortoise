@@ -77,9 +77,9 @@
     left: 25%;
 }
 .boxrabbit h2{
-    font-size: 24px;
+    font-size: 18px;
     margin-top: -20px;
-    color: black;
+    color: white;
 }
 
 .boxturtle {
@@ -89,21 +89,10 @@
 }
 .boxturtle h2{
     margin-top: -20px;
-    font-size: 24px;
-    color: black;
+    font-size: 18px;
+    color: white;
 }
 
-.boxrabbit img:hover {
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
-}
-
-.boxturtle img:hover {
-    -moz-box-shadow: 0 0 10px #FED8A4;
-    -webkit-box-shadow: 0 0 10px #FED8A4;
-    box-shadow: 0 0 10px #FED8A4;
-}
 .sun1{
     position: absolute;
     width: 100%;
