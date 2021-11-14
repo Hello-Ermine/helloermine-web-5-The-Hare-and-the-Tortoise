@@ -60,7 +60,7 @@ img {
               <img className="turtle" src={turtle} alt="turtle"/>
           </div>
           <div className="boxrabbit">
-              <Frame><img src={rabbitframe}/><h2>สวัสดีเราคือกระต่าย เราวิ่งเร็วมาก<br/>นิสัยของเราคือชอบดูถูกคนอื่น<br/>ยินดีที่ได้รู้จักทุกคนนะ</h2></Frame>  
+              <Frame><img src={rabbitframe} id="charactors"/><h2>สวัสดีเราคือกระต่าย เราวิ่งเร็วมาก<br/>นิสัยของเราคือชอบดูถูกคนอื่น<br/>ยินดีที่ได้รู้จักทุกคนนะ</h2></Frame>  
           </div> 
           <div className="boxturtle">
               <Frame1><img src={turtleframe}/><h2>เราเต่าเอง เราเดินช้าแต่<br/>เรามีความพยายามนะ<br/>สู้ไปด้วยกันนะ แง่มๆ</h2></Frame1>  
