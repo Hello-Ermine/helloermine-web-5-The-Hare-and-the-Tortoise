@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
 .Intro {
     position: absolute;
 }
@@ -9,7 +11,8 @@
 .header > .sun {
     width: 20vw;
     position: absolute;
-    top: 195%;
+    top: 170%;
+    left: 4em;
 }
 
 .header > .cloud {
@@ -17,6 +20,19 @@
     position: absolute;
     top: 55em;
 }
+
+/*@keyframes spAnimation {
+    0.0%{
+        
+    }
+    100%{
+        transform: translate(-50px,100px);
+    }
+}
+
+#elementToAnimatesp {
+    animation: spAnimation 3s ease-out 3s normal forwards;
+}*/
 
 .rabbit {
     position: absolute;
@@ -48,27 +64,22 @@
     position: absolute;
 }
 
-/*.Turtle > .script {
+.boxrabbit {
     position: absolute;
-    right: 35%;
-    bottom: 10%;
+    top: 79em;
+    left: 22em;
 }
 
-.Rabbit > .script {
+.boxturtle {
     position: absolute;
-    left: 30%;
-    bottom: 10%;
-}*/
-
-.turtleframe {
-    position: absolute;
-    right: -40%;
-    top: -22%;
+    top: 80em;
+    left: 42em;
 }
 
-.rabbitframe {
-    position: absolute;
-    width: 100%;
-    left: 30%;
-    bottom: 10%;
+h2 {
+    font-family: 'Cabin';
+    font-size: 15px;
+    text-align: left;
+    margin-top: -4px;
+    margin-left: 10px;
 }
