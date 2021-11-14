@@ -7,6 +7,9 @@ import rabbitframe from './sp/rabbitframe.png';
 import turtleframe from './sp/turtleframe.png';
 import bg from './sp/background.png';
 import styled from 'styled-components';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 const Frame = styled.div`
 width: 30vw;
 height: 18vw;
@@ -40,6 +43,9 @@ img {
 `
 
   function Intro() {
+    useEffect(()=>{
+      AOS.init();
+   },[])
     return (
       <div className="Intro">
         {/* <div style={{backgroundImage:`url(${back})`,height:'800vh',backgroundSize:'contain'},backgroundRepeat:'no-repeat';}></div> */}
@@ -58,6 +64,9 @@ img {
           </div> 
           <div className="boxturtle">
               <Frame1><img src={turtleframe}/><h2>เราเต่าเอง เราเดินช้าแต่<br/>เรามีความพยายามนะ<br/>สู้ไปด้วยกันนะ แง่มๆ</h2></Frame1>  
+          </div>
+          <div className="sun" data-aos="fade-down-left">
+              <img className="sun" src={sun} alt="sun"/>
           </div>    
       </div>
     );
