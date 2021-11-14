@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+.Intro {
+    position: absolute;
+}
+
+.header {
+    height: 500px;
+}
+
+.header > .sun {
+    width: 20vw;
+    position: absolute;
+    top: 170%;
+    left: 4em;
+}
+
+.header > .cloud {
+    width: 100vw;
+    position: absolute;
+    top: 55em;
+}
+
+/*@keyframes spAnimation {
+    0.0%{
+        
+    }
+    100%{
+        transform: translate(-50px,100px);
+    }
+}
+
+#elementToAnimatesp {
+    animation: spAnimation 3s ease-out 3s normal forwards;
+}*/
+
+.rabbit {
+    position: absolute;
+    width: 20vw;
+    left: 150px;
+}
+
+.turtle {
+    position: absolute;
+    width: 20vw;
+    right: 150px;
+}
+
+.Turtle, .Rabbit {
+    width: 100vw;
+    position: absolute;
+    top: 290%;
+}
+
+.script {
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.script img {
+    width: 100%;
+    z-index: -100;
+    position: absolute;
+}
+
+.boxrabbit {
+    position: absolute;
+    top: 79em;
+    left: 22em;
+}
+
+.boxturtle {
+    position: absolute;
+    top: 80em;
+    left: 42em;
+}
+
+h2 {
+    font-family: 'Cabin';
+    font-size: 15px;
+    text-align: left;
+    margin-top: -4px;
+    margin-left: 10px;
+}
+
+.sun {
+    position: absolute;
+    top: 170%;
+    left: 5em;
+    
+}
+
+.sun img {
+    width: 20%;
+
+}
