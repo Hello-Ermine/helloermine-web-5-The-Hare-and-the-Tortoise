@@ -1,20 +1,20 @@
 #p4{
     position: absolute;
-    top: 9%;
-    left: .2%;
-    margin-top: 15%; 
+    top: 50%;
+    left: -8.9%;
+
     width: 20%;
+    transform:rotate(21.92deg);
 }
 #p5{ 
     position: absolute;
-    top: 5%;
-    left: 10%;
-    margin-left: 75%; 
-    margin-top: 16%; 
+    top: 50%;
+    left: 90%;
     width: 15%;
+    transform:rotate(-35.62deg);
 }
 #p01{
-    top:58%;
+    top:59%;
     width:100%;
     height:44%;
     left:0.5%;
@@ -48,17 +48,29 @@
     color: #EEC02C;
 }
 #navbar{
-    background-color: rgba(255, 255, 255,0.9);
+    background-color: #483434;
 }
 #p3{
     position: absolute;
-    top: 20px;
-    left: 18px;
-    margin-left: 820px;
+    top: 2.5%;
+    left: 45%;
     z-index: 999999;
 }
 a{
     text-decoration: none;
+    color: #EEC02C !important;
+}
+.hun1{
+position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+}
+#p8{
+    width: 100%;
+    height: 100%;
+    
 }
 /* #stry{
     position: absolute;

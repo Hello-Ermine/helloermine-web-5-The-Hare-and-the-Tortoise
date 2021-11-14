@@ -19,6 +19,8 @@ import pt1 from './gu/pt1.png';
 import pt2 from './gu/pt2.png';
 import pt3 from './gu/pt3.png';
 import rat from './gu/rat.png';
+import tat from './gu/tat.png';
+import Rat1 from './gu/Rat1.png';
 import tao from './gu/tao.png';
 import back from './gu/Background1.png';
 import Header from './Header'
@@ -28,6 +30,8 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Container } from 'react-bootstrap';
+// import Tat from './gu/tat.png';
+// import Rat from './gu/Rat.png';
 const Photo = styled.img` 
   width: 100%;
   z-index: -9999999999;
@@ -40,7 +44,7 @@ const Hot = styled.div`
   justify-content: center;
   align-items: center;
   position: absolute;
-  top:292%;
+  top:140vw;
   left: 64%;
   img{
     width: 100%;
@@ -55,7 +59,7 @@ const Hot2 = styled.div`
   justify-content: center;
   align-items: center;
   position: absolute;
-  top:360%;
+  top:178vw;
   left: 10%;
   img{
     width: 100%;
@@ -70,7 +74,7 @@ const Hot3 = styled.div`
   justify-content: center;
   align-items: center;
   position: absolute;
-  top:460%;
+  top:225vw;
   left: 48%;
   img{
     width: 100%;
@@ -78,7 +82,81 @@ const Hot3 = styled.div`
     z-index: -2;
   }
 `
-
+const Tot22 = styled.div` 
+  width: 47%;
+  height: 15vw;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:140vw;
+  left: 0%;
+  img{
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+  }
+`
+const Tot33 = styled.div` 
+  width: 54%; 
+  height: 15vw;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:178vw;
+  left: 46%;
+  img{
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+  }
+`
+const Tot44 = styled.div` 
+  width: 58%;
+  height: 15vw;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:225vw;
+  left: 0%;
+  img{
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+  }
+`
+const Tot55 = styled.div` 
+  width: 18%;
+  height: 15vw;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:275vw;
+  left: 30%;
+  img{
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+  }
+`
+const Tot66 = styled.div` 
+  width: 18%;
+  height: 15vw;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:277vw;
+  left: 65%;
+  img{
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+  }
+`
 function App() {
   useEffect(()=>{
      AOS.init();
@@ -109,28 +187,22 @@ function App() {
         <div className="yu1"><a href="https://www.instagram.com/nattaphattxz/" target="_blank"><img src={g4} alt="" /><h1>P </h1><h2>Front End</h2></a></div>
         <div className="yu1"><a href="https://www.instagram.com/ppiinntch/" target="_blank"><img src={g6} alt="" /><h1>PIN </h1><h2>Infrastructure</h2></a></div>
       </div>
-        <Hot data-aos="fade-right"><img className="to1" src={kou} alt="" /><h2 className="t1">กระต่ายตัวหนึ่งมั่นใจในความเร็วของตัวมัน<br />มันท้าทายสัตว์ทุกตัวให้แข่งกับมัน<br />ไม่มีสัตว์ตัวใดรับคำท้า<br />เต่าตัวหนึ่งนึกสนุกจึงรับคำท้าเจ้ากระต่าย</h2></Hot>
-        <Hot2 data-aos="fade-left"><img className="to2" src={kou1} alt="" /><h2 className="t1">เมื่อการแข่งเริ่มต้น กระต่ายน้อยวิ่ง<br />นำเต่าไปสุดลูกหูลูกตา</h2></Hot2>
-        <Hot3 data-aos="fade-right"><img className="to3" src={kou} alt="" /><h2 className="t1">มันไม่เห็นเจ้าเต่าจึงงีบหลับลง<br />จนเต่าน้อยคลานมาถึงตัวกระต่าย<br />กระต่ายก็ไม่รู้ตัว เมื่อกระต่ายตื่นขึ้นมา<br />เจ้าเต่าก็เข้าเส้นชัยเสียแล้ว</h2></Hot3>
+        <Hot data-aos="fade-right"><img className="to1" src={kou} alt="" /><h1 className="t1">กระต่ายตัวหนึ่งมั่นใจในความเร็วของตัวมัน<br />มันท้าทายสัตว์ทุกตัวให้แข่งกับมัน<br />ไม่มีสัตว์ตัวใดรับคำท้า<br />เต่าตัวหนึ่งนึกสนุกจึงรับคำท้าเจ้ากระต่าย</h1></Hot>
+        <Hot2 data-aos="fade-left"><img className="to2" src={kou1} alt="" /><h1 className="t1">เมื่อการแข่งเริ่มต้น กระต่ายน้อยวิ่ง<br />นำเต่าไปสุดลูกหูลูกตา</h1></Hot2>
+        <Hot3 data-aos="fade-right"><img className="to3" src={kou} alt="" /><h1 className="t1">มันไม่เห็นเจ้าเต่าจึงงีบหลับลง<br />จนเต่าน้อยคลานมาถึงตัวกระต่าย<br />กระต่ายก็ไม่รู้ตัว เมื่อกระต่ายตื่นขึ้นมา<br />เจ้าเต่าก็เข้าเส้นชัยเสียแล้ว</h1></Hot3>
       <div className="to10">
         <img src={tree} alt="" />
       </div>
-      <div className="to22" data-aos="fade-right">
-        <img className="to22"  src={pt1} alt="" />
-      </div> 
-      <div className="to33"  data-aos="fade-left">
-        <img className="to33" src={pt2} alt="" />
-      </div>
-      <div className="to44"  data-aos="fade-right">
-        <img className="to44" src={pt3} alt="" />
-      </div>
-      <div className="to55"  data-aos="fade-right">
-        <img className="to55" src={rat} alt="" />
-      </div>
-      <div className="to66"  data-aos="fade-right">
-        <img className="to66" src={tao} alt="" />
-      </div>
+      <Tot22 data-aos="fade-right"> <img  src={pt1} alt="" /></Tot22>
+      <Tot33 data-aos="fade-left"><img src={pt2} alt="" /></Tot33>
+      <Tot44 data-aos="fade-right"><img src={pt3} alt="" /></Tot44> 
+      <Tot55 data-aos="fade-right"><img src={rat} alt="" /></Tot55>
+      <Tot66 data-aos="fade-right"><img  src={tao} alt="" /></Tot66> 
       <h2 className="t2" data-aos="fade-right">“ ความประมาท<br />ย่อมนำมาซึ่งล้มเหลว ”</h2>
+      
+      <img src={Rat1} id="Rat1" alt="" />
+      <img src={tat} id="tat" alt="" />
+      <div id="story"></div>
     </div>
   );
 }

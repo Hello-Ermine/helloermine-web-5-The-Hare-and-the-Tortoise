@@ -70,11 +70,12 @@ h1{
   font-family: IrisUPC;
   font-size: 30px;
 }
-h2{
+.g h2{
   color: white;
   font-family: IrisUPC;
   font-size: 30px;
-  margin-top: -40px;
+  margin-top: -16%;
+  margin-left: 18%;
 }
 #targetElement{
   color:var(--text);
@@ -173,6 +174,9 @@ a{
 .t1{
   margin-top: 2%;
   text-align: left;
+  color: #000;
+  font-family: 'Itim', cursive;
+  font-size: 1.4583333333333333vw;
 }
 .hun{
   position: absolute;
@@ -180,73 +184,39 @@ a{
   height: 100%;
   overflow: hidden;
 }
-.to h2{
-  font-family: Matura MT Script Capitals;
-  font-size: 24px;
-  color: black;
-}
+
 .to10{
   position:absolute;
-  top:270%;
+  top:131vw;
   left: 77%;
 }
 
-
-.to22{
-  position:absolute;
-  width: 100%;
-  top:270%;
-  left: 0%;
-}
-.to22 img{
-  width: 47%;
-}
-
-.to33{
-  position:absolute;
-  width: 100%;
-  top:335%;
-  left: 23%;
-
-}
-.to33 img{
-  width: 54%; 
-}
-.to44{
-  position:absolute;
-  width: 100%;
-  top:440%;
-  left: 0%;
-}
-.to44 img{
-  width: 58%;
-}
-.to55{
-  position:absolute;
-  width: 100%;
-  top:560%;
-  left: 15%;
-}
-.to55 img{
-  width: 18%;
-}
-.to66{
-  position:absolute;
-  width: 100%;
-  top:575%;
-  left: 32%;
-}
-.to66 img{
-  width: 18%;
-}
 .t2{
   color: #000;
   position:absolute;
-  top:570%;
-  left: 55%;
+  top:273vw;
+  left: 60%;
   font-size: 36px;
-  font-family: Matura MT Script Capitals;
+  font-family: 'Itim', cursive;
 }
 a{
   text-decoration: none;
+}
+#Rat1{
+  position:absolute;
+  top: 205vw;
+  left: 35%;
+}
+#tat{
+  position: absolute;
+  top: 140vw;
+  left: 48%;
+}
+#story{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 250%;
+  left: 45%;
+
 }

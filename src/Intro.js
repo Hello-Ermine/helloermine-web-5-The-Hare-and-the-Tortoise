@@ -49,14 +49,14 @@ function Intro() {
   }, [])
   
   return (
-    <div className="Intro">
+    <div className="Intro" >
       <div className="header">
         <img className="cloud" src={cloud} alt="cloud" />
       </div>
-      <div className="Rabbit">
-        <img onClick={() => setPopupRabbit(value=>!value)} className="rabbit" src={rabbit} alt="rabbit" />
+      <div className="Rabbit" >
+        <img onClick={() => setPopupRabbit(value=>!value)} className="rabbit"  src={rabbit} alt="rabbit" />
         {popupRabbit && (
-          <div className="boxrabbit">
+          <div className="boxrabbit"id="Intro">
           <Frame><img src={rabbitframe} /><h2>สวัสดีเราคือกระต่าย เราวิ่งเร็วมาก<br />นิสัยของเราคือชอบดูถูกคนอื่น<br />ยินดีที่ได้รู้จักทุกคนนะ</h2></Frame>
         </div>
         )}
@@ -72,6 +72,7 @@ function Intro() {
       <div className="sun1" data-aos="fade-down-left">
         <img className="sun10" src={sun} alt="sun" />
       </div>
+      <div id="carter"></div>
     </div>
   );
 }
