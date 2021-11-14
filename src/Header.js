@@ -19,7 +19,7 @@ const Photo =styled.div`
 
 function Header() {
     return (
-      <div className="App">
+      <div className="Header">
         <img src={p3} alt="logo_navbar" id="p3"/>
         <Navbar expand="lg" variant="light" fixed="top" id="navbar">
         <Container>
