@@ -23,10 +23,10 @@ function Header() {
         <img src={p3} alt="logo_navbar" id="p3"/>
         <Navbar expand="lg" variant="light" fixed="top" id="navbar">
         <Container>
-            <Navbar.Brand href="#" id="nav">หน้าหลัก</Navbar.Brand>
+            <Navbar.Brand href="#p3" id="nav">หน้าหลัก</Navbar.Brand>
             <Navbar.Brand href="#" id="nav">ตัวละคร</Navbar.Brand>
             <Navbar.Brand href="#" id="nav">เนื้อเรื่อง</Navbar.Brand>
-            <Navbar.Brand href="#" id="nav">ผู้จัดทำ</Navbar.Brand>
+            <Navbar.Brand href="#credit" id="nav">ผู้จัดทำ</Navbar.Brand>
         </Container>
         </Navbar>
         
@@ -38,12 +38,6 @@ function Header() {
         </div>
     </div>
 
-    // { <div id="navbar">
-
-    //     
-
-    // </div> }
-    //   </div>
     );
     
   }
