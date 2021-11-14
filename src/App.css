@@ -221,3 +221,6 @@ a{
   font-size: 36px;
   font-family: Matura MT Script Capitals;
 }
+a{
+  text-decoration: none;
+}

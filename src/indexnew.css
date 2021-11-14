@@ -1,32 +1,32 @@
 #p4{
     position: absolute;
-    top: 80px;
-    left: 16px;
-    margin-top: 450px; 
-    width: 350px;
+    top: 9%;
+    left: .2%;
+    margin-top: 15%; 
+    width: 20%;
 }
 #p5{ 
     position: absolute;
-    top: 180px;
-    left: 150px;
-    margin-left:1450px; 
-    margin-top: 350px; 
-    width: 250px;
+    top: 5%;
+    left: 10%;
+    margin-left: 75%; 
+    margin-top: 16%; 
+    width: 15%;
 }
 #p01{
-    top:600px;
-    width:1200px;
-    height:280px;
-    left:370px;
+    top:58%;
+    width:100%;
+    height:44%;
+    left:0.5%;
     position: absolute;
 }
 #p6{
     position: absolute;
     top:16%;
     left:34%;
-    margin: 24px;
-    width: 540px;
-    height: 480px;
+    margin: 1%;
+    width: 30%;
+    height: 51%;
     animation: zoom-in-zoom-out 2s ease-in-out ;
 }
 @keyframes zoom-in-zoom-out {
@@ -56,6 +56,9 @@
     left: 18px;
     margin-left: 820px;
     z-index: 999999;
+}
+a{
+    text-decoration: none;
 }
 /* #stry{
     position: absolute;

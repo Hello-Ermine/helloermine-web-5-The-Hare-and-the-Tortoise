@@ -91,7 +91,7 @@ function App() {
         <img className="tur" src={tur} alt="" />
         <img className="tur2" src={tur2} alt="" />
         </div>
-        <div className="yu1"><a href="https://www.instagram.com/evekmp_/" target="_blank"><img src={g1} alt="" /><h1>EVE </h1><h2>Web Design</h2></a></div>
+        <div className="yu1"><a href="https://www.instagram.com/evekmp_/" target="_blank" id="credit"><img src={g1} alt="" /><h1>EVE </h1><h2>Web Design</h2></a></div>
         <div className="yu1"><a href="https://www.instagram.com/kenwrp/" target="_blank"><img src={g2} alt="" /><h1>KEN </h1><h2>Web Design</h2></a></div>
         <div className="yu1"><a href="https://www.instagram.com/warittinan_t/" target="_blank"><img src={g3} alt="" /><h1>TLE </h1><h2>Front End</h2></a></div>
         <div className="yu1"><a href="https://www.instagram.com/onyourp__parn/" target="_blank"><img src={g5} alt="" /><h1>SAIPARN </h1><h2>Front End</h2></a></div>
