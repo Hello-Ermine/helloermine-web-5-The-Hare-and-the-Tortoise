@@ -20,10 +20,13 @@ import pt3 from './gu/pt3.png';
 import rat from './gu/rat.png';
 import tao from './gu/tao.png';
 import back from './gu/Background1.png';
+import Header from './Header'
 import styled from 'styled-components';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import { Navbar, Container } from 'react-bootstrap';
 const Photo = styled.img` 
   width: 100%;
   z-index: -9999999999;
@@ -81,6 +84,7 @@ function App() {
   return (
     <div className="App">
       <Photo src={back} />
+      <Header></Header>
       <div className="g">
         <div id="elementToAnimate" className="tu3">
           <img id="p1" src={tu3} alt="" />
