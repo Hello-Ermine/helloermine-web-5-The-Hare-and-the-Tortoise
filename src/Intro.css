@@ -5,7 +5,6 @@
     top: 100%;
     overflow: hidden;
 }
-
 .header, .Rabbit {
     position: absolute;
     top: 0;
@@ -13,7 +12,6 @@
     right: 0;
     bottom: 0;
 }
-
 .header > .sun {
     width: 20vw;
     position: absolute;
@@ -27,7 +25,6 @@
     top: -3%;
     left: 0;
 }
-
 .rabbit {
     position: absolute;
     width: 20vw;

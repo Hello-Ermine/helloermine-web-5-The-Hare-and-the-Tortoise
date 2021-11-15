@@ -30,8 +30,6 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Container } from 'react-bootstrap';
-// import Tat from './gu/tat.png';
-// import Rat from './gu/Rat.png';
 const Photo = styled.img` 
   width: 100%;
   z-index: -9999999999;
