@@ -201,6 +201,7 @@ function App() {
       <img src={Rat1} id="Rat1" alt="" />
       <img src={tat} id="tat" alt="" />
       <div id="story"></div>
+
     </div>
   );
 }

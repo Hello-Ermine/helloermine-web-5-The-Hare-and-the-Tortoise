@@ -10,7 +10,7 @@ import back from './gu/background.png';
 import styled from 'styled-components';
 import indexstyle from './indexnew.css';
 import { Navbar , Container } from 'react-bootstrap';
-
+import Particle from './Particle';
 
 const Photo =styled.div` 
   background-image:url(${back});
@@ -31,11 +31,14 @@ function Header() {
             <Navbar.Brand href="#credit" id="nav">ผู้จัดทำ</Navbar.Brand>
         </Container>
         </Navbar>
+
         <div className="hun1">
+        
+        <img src={p8} alt="animaion" id="p8"/>
+       
         <img src={p4} id="p4" alt="RABBIT"/>
         <img src={p5} alt="TURTLE" id="p5"/>
         <img src={p01} alt="book" id="p01"/>
-        <img src={p8} alt="animaion" id="p8"/>
         </div>
         <div>
             <img src={p6} id="p6" alt="center_font"/>
